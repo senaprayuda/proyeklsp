@@ -1,0 +1,12 @@
+CRITICAL - 2022-06-30 06:45:42 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\acer\Desktop\LSP\Coding\proyek-sismul\proyek-sismul\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\acer\Desktop\LSP\Coding\proyek-sismul\proyek-sismul\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\acer\Desktop\LSP\Coding\proyek-sismul\proyek-sismul\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\acer\Desktop\LSP\Coding\proyek-sismul\proyek-sismul\spark(45): require('C:\\Users\\acer\\D...')
+#4 {main}
+CRITICAL - 2022-06-30 06:48:24 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\acer\Desktop\LSP\Coding\proyek-sismul\proyek-sismul\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\acer\Desktop\LSP\Coding\proyek-sismul\proyek-sismul\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\acer\Desktop\LSP\Coding\proyek-sismul\proyek-sismul\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\acer\Desktop\LSP\Coding\proyek-sismul\proyek-sismul\spark(45): require('C:\\Users\\acer\\D...')
+#4 {main}

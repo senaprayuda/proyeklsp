@@ -1,0 +1,6 @@
+CRITICAL - 2021-12-03 08:45:31 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\Sharon Excelli\Desktop\proyek-pweb\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\Sharon Excelli\Desktop\proyek-pweb\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\Sharon Excelli\Desktop\proyek-pweb\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\Sharon Excelli\Desktop\proyek-pweb\spark(45): require('C:\\Users\\Sharon...')
+#4 {main}

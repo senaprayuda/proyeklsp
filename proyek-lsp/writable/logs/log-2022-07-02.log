@@ -1,0 +1,16 @@
+ERROR - 2022-07-02 05:36:47 --> Table 'proyeksismul.musik' doesn't exist
+CRITICAL - 2022-07-02 05:36:47 --> Table 'proyeksismul.musik' doesn't exist
+#0 C:\Users\acer\Desktop\LSP\Coding\proyek-sismul\proyek-sismul\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\acer\Desktop\LSP\Coding\proyek-sismul\proyek-sismul\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\acer\Desktop\LSP\Coding\proyek-sismul\proyek-sismul\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\acer\Desktop\LSP\Coding\proyek-sismul\proyek-sismul\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\acer\Desktop\LSP\Coding\proyek-sismul\proyek-sismul\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\acer\Desktop\LSP\Coding\proyek-sismul\proyek-sismul\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\acer\Desktop\LSP\Coding\proyek-sismul\proyek-sismul\app\Models\MusikModel.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\acer\Desktop\LSP\Coding\proyek-sismul\proyek-sismul\app\Controllers\Musik.php(23): App\Models\MusikModel->getMusik()
+#8 C:\Users\acer\Desktop\LSP\Coding\proyek-sismul\proyek-sismul\system\CodeIgniter.php(824): App\Controllers\Musik->index()
+#9 C:\Users\acer\Desktop\LSP\Coding\proyek-sismul\proyek-sismul\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Musik))
+#10 C:\Users\acer\Desktop\LSP\Coding\proyek-sismul\proyek-sismul\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\acer\Desktop\LSP\Coding\proyek-sismul\proyek-sismul\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\acer\Desktop\LSP\Coding\proyek-sismul\proyek-sismul\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\acer\\D...')
+#13 {main}

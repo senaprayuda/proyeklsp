@@ -1,0 +1,66 @@
+CRITICAL - 2022-04-17 16:10:48 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\Administrator\Desktop\proyek-pweb\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\Administrator\Desktop\proyek-pweb\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\Administrator\Desktop\proyek-pweb\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\Administrator\Desktop\proyek-pweb\spark(45): require('C:\\Users\\Admini...')
+#4 {main}
+CRITICAL - 2022-04-17 16:11:01 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\Administrator\Desktop\proyek-pweb\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\Administrator\Desktop\proyek-pweb\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\Administrator\Desktop\proyek-pweb\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\Administrator\Desktop\proyek-pweb\spark(45): require('C:\\Users\\Admini...')
+#4 {main}
+CRITICAL - 2022-04-17 16:12:22 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\Administrator\Desktop\proyek-pweb\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\Administrator\Desktop\proyek-pweb\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\Administrator\Desktop\proyek-pweb\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\Administrator\Desktop\proyek-pweb\spark(45): require('C:\\Users\\Admini...')
+#4 {main}
+CRITICAL - 2022-04-17 16:13:38 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\Administrator\Desktop\proyek-pweb\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\Administrator\Desktop\proyek-pweb\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\Administrator\Desktop\proyek-pweb\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\Administrator\Desktop\proyek-pweb\spark(45): require('C:\\Users\\Admini...')
+#4 {main}
+CRITICAL - 2022-04-17 09:16:33 --> strtolower(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\Users\\Admini...', 253)
+#1 C:\Users\Administrator\Desktop\proyek-pweb\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\Users\Administrator\Desktop\proyek-pweb\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\Users\Administrator\Desktop\proyek-pweb\system\Config\Services.php(570): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\Users\Administrator\Desktop\proyek-pweb\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#5 C:\Users\Administrator\Desktop\proyek-pweb\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#6 C:\Users\Administrator\Desktop\proyek-pweb\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#7 C:\Users\Administrator\Desktop\proyek-pweb\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#8 C:\Users\Administrator\Desktop\proyek-pweb\system\Common.php(909): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#9 C:\Users\Administrator\Desktop\proyek-pweb\app\Views\musik\index.php(21): session()
+#10 C:\Users\Administrator\Desktop\proyek-pweb\system\View\View.php(214): include('C:\\Users\\Admini...')
+#11 C:\Users\Administrator\Desktop\proyek-pweb\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#12 C:\Users\Administrator\Desktop\proyek-pweb\system\Common.php(1097): CodeIgniter\View\View->render('musik/index', Array, true)
+#13 C:\Users\Administrator\Desktop\proyek-pweb\app\Controllers\Musik.php(26): view('musik/index', Array)
+#14 C:\Users\Administrator\Desktop\proyek-pweb\system\CodeIgniter.php(824): App\Controllers\Musik->index()
+#15 C:\Users\Administrator\Desktop\proyek-pweb\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Musik))
+#16 C:\Users\Administrator\Desktop\proyek-pweb\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 C:\Users\Administrator\Desktop\proyek-pweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#18 C:\Users\Administrator\Desktop\proyek-pweb\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#19 {main}
+CRITICAL - 2022-04-17 16:43:05 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\Administrator\Desktop\proyek-pweb\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\Administrator\Desktop\proyek-pweb\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\Administrator\Desktop\proyek-pweb\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\Administrator\Desktop\proyek-pweb\spark(45): require('C:\\Users\\Admini...')
+#4 {main}
+ERROR - 2022-04-17 09:43:40 --> Error connecting to the database: Unknown database 'proyekpweb'
+CRITICAL - 2022-04-17 09:43:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'proyekpweb'
+#0 C:\Users\Administrator\Desktop\proyek-pweb\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Administrator\Desktop\proyek-pweb\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\Administrator\Desktop\proyek-pweb\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\Administrator\Desktop\proyek-pweb\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\Administrator\Desktop\proyek-pweb\app\Models\MusikModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\Administrator\Desktop\proyek-pweb\app\Controllers\Musik.php(23): App\Models\MusikModel->getMusik()
+#6 C:\Users\Administrator\Desktop\proyek-pweb\system\CodeIgniter.php(824): App\Controllers\Musik->index()
+#7 C:\Users\Administrator\Desktop\proyek-pweb\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Musik))
+#8 C:\Users\Administrator\Desktop\proyek-pweb\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Administrator\Desktop\proyek-pweb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Administrator\Desktop\proyek-pweb\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Admini...')
+#11 {main}
