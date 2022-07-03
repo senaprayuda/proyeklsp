@@ -6,5 +6,5 @@ Cara Menjalankan Program:
 ![ss2](https://user-images.githubusercontent.com/108518423/177025931-1b934e04-ef13-4c78-974c-2d571db652fc.png)
 
 Run Program :
-Lalu pada vscode pertama tambahkan terminal baru, dan ketikan ( php spark serve ) pada terminal tersebut
+1. Lalu pada vscode pertama tambahkan terminal baru, dan ketikan ( php spark serve ) pada terminal tersebut
 ![ss3](https://user-images.githubusercontent.com/108518423/177026112-0964893a-b20c-4734-8fad-d81683e28675.png)
